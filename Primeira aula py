@@ -1,0 +1,33 @@
+#COMENT
+
+    #BUILT IN
+        #comando print
+print("Hello World!")
+    
+        #criação e declaração de variaveis
+HEY = "Seila cara" #string
+print(HEY)
+
+    #Adição de dados
+
+Nome = "Brayan"
+
+Sobrenome = "Rodrigues" 
+
+udade = "18" # Mesmo o Py reconhecendo o numero transformar para somar 
+
+
+print("Name:"+ Nome)
+print("Sobrenome:"+ Sobrenome)
+print("Idade:"+ udade ) 
+
+#imprimir dados no terminal
+nome=input("Name :")
+Idade=int(input("Years :"))
+if Idade >= 18 :
+    if Idade >30 :
+        print("calmae paizão")
+    else :
+        print("Ta grandinho pae")
+else:
+    print("SAIA CRIANÇA")
