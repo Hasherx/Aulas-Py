@@ -12,7 +12,7 @@ print(HEY)
 
 Nome = "Brayan"
 
-Sobrenome = "Rodrigues" 
+Sobrenome = "Rodrigues"
 
 udade = "18" # Mesmo o Py reconhecendo o numero transformar para somar 
 
@@ -22,12 +22,24 @@ print("Sobrenome:"+ Sobrenome)
 print("Idade:"+ udade ) 
 
 #imprimir dados no terminal
-nome=input("Name :")
-Idade=int(input("Years :"))
+    #\n usado para pular linhas
+nome=input("\nNome : ")
+sobrenome=input("\nSobrenome : ")
+Idade=int(input("\nIdade : "))
 if Idade >= 18 :
-    if Idade >30 :
-        print("calmae paizão")
+    if Idade >50 :
+        print("Sr.", sobrenome , "seja bem vindo")
     else :
-        print("Ta grandinho pae")
+        print("Seja bem vindo")
 else:
     print("SAIA CRIANÇA")
+        
+print("espero que aproveite")
+
+    #Tipos de dados
+var01 = 122 #integer (inteiro)
+var02 = 123.5 #float (decilmal)
+var03 = "maria" #string
+var04 = True #booleano ( Verdad ou falso)
+
+    
